@@ -1,0 +1,116 @@
+@font-face
+{
+    font-family: "Lobster";
+    src: url("../fonts/lobster.otf") format("truetype");
+}
+
+.lobsterfont
+{
+    font-family: "Lobster", Verdana, Tahoma;
+}
+
+.background
+{
+  margin-top: -500px;
+  height: 1000px;
+  position: fixed;
+  width: 100%;
+  
+}
+
+body
+{
+  /*background-color: #265B6A;*/
+  /*background-repeat: no-repeat;*/
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /*font-family: algerian;  doesn't work */
+}
+
+
+div.box
+{
+  background: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  padding: 100px 10px;
+  margin-top: 10%;
+  margin-bottom: 30%;
+  border-radius: 20px;
+}
+
+p.nextext
+{
+  margin-top: 15%;
+}
+
+.goldcolor
+{
+  color: #D4A06A;
+}
+
+.redcolor
+{
+  color: #ff0000;
+}
+
+header
+{
+  /*position: fixed;*/
+  width: 100%;
+  top: 0px;
+}
+
+
+.centermain
+{
+  margin-top: 17%;
+  width: 100%;
+}
+
+
+h1.title
+{
+  font-size: 100px;
+  text-align: center;
+}
+
+p.email
+{
+  text-align: center;
+}
+
+footer
+{
+  /*position: fixed;*/
+  /*margin-top: 30%;*/
+  display: none;
+  width: 100%;
+  bottom: 0px;
+  font-size: 24px;
+}
+
+body
+{
+  background-image: url("../../img/background-crop.jpg");
+  background-attachment: fixed;
+}
+
+div.box
+{
+  width: 40%;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+p.centertext
+{
+  font-size: 30px;
+}
+
+footer
+{
+  margin-top: 30%;
+}
