@@ -56,6 +56,11 @@ p.nextext
   color: #ff0000;
 }
 
+.greencolor
+{
+    color: #00ff00;
+}
+
 header
 {
   /*position: fixed;*/
